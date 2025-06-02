@@ -68,14 +68,14 @@ Build a unified prototype that:
 ## File Structure
 
 
-├── fraud_dashboard.py           # Streamlit app
-├── cyberthon_ai_2025.py         # Script to simulate data, train and save models
-├── upi_model.pkl                # Trained UPI fraud model
-├── upi_label_encoders.pkl       # Label encoders for UPI data
-├── voip_model.pkl               # Trained VoIP fraud model
-├── voip_label_encoders.pkl      # Label encoders for VoIP data
-├── README.md
-└── requirements.txt
+fraud_dashboard.py           # Streamlit app   |
+cyberthon_ai_2025.py         # Script to simulate data, train and save models   |
+upi_model.pkl                # Trained UPI fraud model    |
+upi_label_encoders.pkl       # Label encoders for UPI data   |
+voip_model.pkl               # Trained VoIP fraud model     |
+voip_label_encoders.pkl      # Label encoders for VoIP data    |
+README.md
+
 
 
 ## Thank you
