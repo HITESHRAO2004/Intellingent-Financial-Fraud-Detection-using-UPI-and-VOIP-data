@@ -222,6 +222,11 @@ for col in ['voip_provider', 'geo_info']:
 
 voip_score = voip_model.predict_proba(new_voip_call)[0][1]
 
+if score > 0.7:
+    input_df["score"] = score
+    input_df.to_csv("fraud_alerts_log.csv", mode='a', index=False, header=False)
+
+
 # --- Final Output ---
 print(f"UPI Fraud Score: {upi_score:.2f} {'⚠️ Alert' if upi_score > 0.7 else '✅ Safe'}")
 print(f"VoIP Fraud Score: {voip_score:.2f} {'⚠️ Alert' if voip_score > 0.7 else '✅ Safe'}")
