@@ -50,13 +50,13 @@ Build a unified prototype that:
 
  1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/fraud-detection-upi-voip.git
+    git clone https://github.com/HITESHRAO2004/Intellingent-Financial-Fraud-Detection-using-UPI-and-VOIP-data.git
 
  2. **Navigate into the project directory**:
-    ``bash
-    cd fraud-detection-upi-voip
+    ```bash
+    cd Intellingent-Financial-Fraud-Detection-using-UPI-and-VOIP-data
 
- 3. **Install Dependencies**
+ 4. **Install Dependencies**
     ```bash
     pip install -r requirements.txt
 
