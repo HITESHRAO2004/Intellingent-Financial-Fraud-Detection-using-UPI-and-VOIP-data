@@ -46,28 +46,23 @@ Build a unified prototype that:
 
 ## 🛠️ How to Run
 
-1. Clone the Repository
+ **Open Command Promt (press Win + R, type cmd, and press Enter)**
 
-```bash
-git clone https://github.com/yourusername/fraud-detection-upi-voip.git
-cd fraud-detection-upi-voip
+ 1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/yourusername/fraud-detection-upi-voip.git
 
----
+ 2. **Navigate into the project directory**:
+    ``bash
+    cd fraud-detection-upi-voip
 
-2. Install Dependencies
+ 3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
 
-```bash
-pip install -r requirements.txt
-
----
-
-3. Launch Streamlit Dashboard
-
-```bash
-streamlit run fraud_dashboard.py
-
-
----
+ 4.**Launch Streamlit Dashboard**
+    ```bash
+    streamlit run fraud_dashboard.py
 
 
 ## File Structure
@@ -82,5 +77,9 @@ streamlit run fraud_dashboard.py
 ├── README.md
 └── requirements.txt
 
+
+## Thank you
+  ```bash
+  “This prototype isn't just code — it's a real-time shield against digital financial crime, built with precision, purpose, and the potential to protect millions.”
 
 
