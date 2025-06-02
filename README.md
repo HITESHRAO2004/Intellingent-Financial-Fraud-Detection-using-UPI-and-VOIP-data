@@ -60,10 +60,10 @@ Build a unified prototype that:
     ```bash
     pip install -r requirements.txt
 
- 4.**Launch Streamlit Dashboard**
+ 5. **Launch Streamlit Dashboard**
     ```bash
     streamlit run fraud_dashboard.py
-
+   
 
 ## File Structure
 
