@@ -72,3 +72,7 @@ elif option == "VoIP":
             st.error("🚨 Suspicious Call Detected")
         else:
             st.success("✅ Safe Call")
+
+if score > 0.7:
+    input_df["score"] = score
+    input_df.to_csv("fraud_alerts_log.csv", mode='a', index=False, header=False)
