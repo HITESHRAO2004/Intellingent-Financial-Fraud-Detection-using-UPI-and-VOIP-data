@@ -69,7 +69,7 @@ Build a unified prototype that:
 
 
 ├── fraud_dashboard.py           # Streamlit app
-├── save_models.py               # Script to train and save models
+├── cyberthon_ai_2025.py         # Script to simulate data, train and save models
 ├── upi_model.pkl                # Trained UPI fraud model
 ├── upi_label_encoders.pkl       # Label encoders for UPI data
 ├── voip_model.pkl               # Trained VoIP fraud model
