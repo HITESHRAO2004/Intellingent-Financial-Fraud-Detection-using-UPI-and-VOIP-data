@@ -56,9 +56,9 @@ Build a unified prototype that:
     ```bash
     cd Intellingent-Financial-Fraud-Detection-using-UPI-and-VOIP-data
 
- 4. **Install Dependencies**
+ 4. **Install Streamlit**
     ```bash
-    pip install -r requirements.txt
+    pip install streamlit
 
  5. **Launch Streamlit Dashboard**
     ```bash
@@ -76,6 +76,8 @@ voip_model.pkl               # Trained VoIP fraud model     |
 voip_label_encoders.pkl      # Label encoders for VoIP data    |
 README.md
 
+
+## All versions of libraries must be according to the version of libraries used while saving the models, in order to run the prototype smoothly
 
 
 ## Thank you
